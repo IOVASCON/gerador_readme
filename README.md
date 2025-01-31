@@ -1,22 +1,24 @@
 # 🗂️ Projeto: Gerador de README.md
 
-![Logo do Projeto](https://via.placeholder.com/800x200?text=Imagem+do+Projeto)
-
 ![Execução do Script](executando_script.PNG)
 
 ## 📝 Descrição
 
-Este projeto foi analisado automaticamente pelo script e contém as seguintes configurações e informações. Ele tem como objetivo principal **(Descrever o objetivo principal)**.
+Este projeto foi analisado automaticamente pelo script e contém as seguintes configurações e informações.
+Ele tem como objetivo principal automatizar a geração de arquivos README.md para projetos, garantindo padronização
+e economia de tempo.
 
 ## 🎯 Objetivo do Projeto
 
-O objetivo principal deste projeto é **descrever o objetivo aqui**.
+O objetivo principal deste projeto é facilitar a documentação de projetos ao gerar automaticamente arquivos
+README.md completos e organizados, permitindo que desenvolvedores foquem na construção do código sem comprometer
+a qualidade da apresentação do projeto.
 
 ## 🚀 Funcionalidades
 
-- **Funcionalidade 1:** Descrever a funcionalidade aqui.
-- **Funcionalidade 2:** Melhorar integração com sistemas externos.
-- **Funcionalidade 3:** Adicionar suporte para novas métricas.
+- **Geração Automática:** O script analisa o projeto, identifica bibliotecas utilizadas e estrutura um README.md completo.
+- **Personalização:** Permite ajustes específicos conforme a necessidade do projeto.
+- **Compatibilidade:** Funciona com diversos tipos de projetos e linguagens.
 
 ## 📂 Estrutura do Projeto
 
@@ -39,9 +41,9 @@ Abaixo está uma visualização da estrutura do projeto (pastas primeiro, seguid
 
 ## 🏆 Benefícios do Gerador de README.md
 
-- **Precisão:** Elimina erros manuais em cálculos financeiros.
-- **Eficiência:** Automatiza análises complexas, economizando tempo.
-- **Clareza:** Gera relatórios detalhados que auxiliam na tomada de decisões.
+- **Precisão:** Garante a inclusão das informações essenciais, sem erros manuais.
+- **Eficiência:** Reduz o tempo gasto na criação de documentações.
+- **Clareza:** Ajuda a estruturar a apresentação do projeto de forma compreensível.
 
 ## 🖥️ Como Executar
 
@@ -51,7 +53,7 @@ Abaixo está uma visualização da estrutura do projeto (pastas primeiro, seguid
 
 2. Navegue até o diretório do projeto:
 
-   cd captacao_bancaria_rentabilidade
+   cd projeto-gerador-readme
 
 3. Configure o ambiente virtual (se necessário):
 
@@ -68,7 +70,7 @@ Abaixo está uma visualização da estrutura do projeto (pastas primeiro, seguid
 
 ## 💻 Ambiente Virtual
 
-Ambiente virtual configurado: **Não (usando requirements.txt)**
+Ambiente virtual configurado: **Sim (usando requirements.txt)**
 
 ## 📦 Bibliotecas Utilizadas
 
@@ -82,6 +84,8 @@ tabulate==0.9.0
 As principais tecnologias utilizadas no projeto incluem:
 
 - [Python]<https://www.python.org/>
+- Markdown
+- GitHub
 - Outras tecnologias podem ser descritas aqui.
 
 ## 🛠️ Tarefas
