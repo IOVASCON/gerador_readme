@@ -47,30 +47,42 @@ Abaixo está uma visualização da estrutura do projeto (pastas primeiro, seguid
 
 ## 🖥️ Como Executar
 
-1. Clone o repositório:
-
-   git clone <https://github.com/seuusuario/captacao_bancaria_rentabilidade.git>
-
-2. Navegue até o diretório do projeto:
+1. Navegue até o diretório do projeto: (local do arquivo gerador)
 
    cd projeto-gerador-readme
 
-3. Configure o ambiente virtual (se necessário):
+2. Execute o comando:
+
+   Exemplo:
+   .generate_readme_from_project "L:/VSCode/PYTHON/ESTUDOS/captacao_bancaria_rentabilidade
+
+3. Confirmação do Readme.md no destino:
+
+   Local onde o README.md estará salvo
+
+## 🖥️ GitHub
+
+1. Clone o repositório:
+
+   Exemplo:
+   git clone <https://github.com/iovascon/captacao_bancaria_rentabilidade.git>
+
+## 💻 Ambiente Virtual
+
+1. Configure o ambiente virtual (se necessário):
 
    python3 -m venv venv
    source venv/bin/activate
 
-4. Instale as dependências:
+2. Instale as dependências:
 
    pip install -r requirements.txt
 
-5. Execute o programa principal:
+3. Execute o programa principal:
 
    python src/main.py
 
-## 💻 Ambiente Virtual
-
-Ambiente virtual configurado: **Sim (usando requirements.txt)**
+   Ambiente virtual configurado: **Sim (usando requirements.txt)**
 
 ## 📦 Bibliotecas Utilizadas
 
