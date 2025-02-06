@@ -45,20 +45,20 @@ Abaixo está uma visualização da estrutura do projeto (pastas primeiro, seguid
 - **Eficiência:** Reduz o tempo gasto na criação de documentações.
 - **Clareza:** Ajuda a estruturar a apresentação do projeto de forma compreensível.
 
-## 🖥️ Como Executar
+## 🖥️ Como usar o script
 
-1. Navegue até o diretório do projeto: (local do arquivo gerador)
+1. Salve o script como "generate_readme_from_project.sh"
 
-   cd projeto-gerador-readme
+2. Dê permissão de execução ao script:
 
-2. Execute o comando:
+      chmod +x generate_readme_from_project.sh
+
+3. Execute o script passando o nome do projeto como argumento:
+
+      ./generate_readme_from_project.sh nome_do_projeto
 
    Exemplo:
    .generate_readme_from_project "L:/VSCode/PYTHON/ESTUDOS/captacao_bancaria_rentabilidade
-
-3. Confirmação do Readme.md no destino:
-
-   Local onde o README.md estará salvo
 
 ## 🖥️ GitHub
 
