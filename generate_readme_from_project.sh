@@ -74,24 +74,33 @@ $TREE
 
 ## 🖥️ Como Executar
 
-1. Clone o repositório:
+1. Salve o script como setup_project.sh.
+2. Dê permissão de execução ao script:
+
+      chmod +x generate_readme_from_project.sh
+
+3. Execute o script passando o nome do projeto como argumento:
+
+      ./generate_readme_from_project.sh nome_do_projeto
+
+4. Clone o repositório:
 
    git clone <https://github.com/seuusuario/$PROJECT_NAME.git>
 
-2. Navegue até o diretório do projeto:
+5. Navegue até o diretório do projeto:
 
    cd $PROJECT_NAME
 
-3. Configure o ambiente virtual (se necessário):
+6. Configure o ambiente virtual (se necessário):
 
    python3 -m venv venv
    source venv/bin/activate
 
-4. Instale as dependências:
+7. Instale as dependências:
 
    pip install -r requirements.txt
 
-5. Execute o programa principal:
+8. Execute o programa principal:
 
    python src/main.py
 
